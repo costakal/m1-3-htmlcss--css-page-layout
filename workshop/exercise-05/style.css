@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.images1{
+    display: flex;   
+}
+
+.images2{
+    display: flex;   
+}
+
+.images3{
+    display: flex;   
+}
+
+img {
+    width: calc(100% / 3);
+    /*had to use the solution to figure out this part...*/
+    outline: 1px solid white;
+    flex: 1;
+}
