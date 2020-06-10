@@ -7,7 +7,37 @@ body {
 }
 
 .nav-dropdown {
+  padding: 25px;
   color: #fff;
   text-decoration: none;
   display: inline-block;
+  position: relative;
 }
+
+.nav-dropdown:hover > .drop-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: cornflowerblue;
+}
+
+.drop-menu {
+  display: none;
+}
+
+.drop-items {
+  margin: 0;
+  padding: 0;
+}
+
+.drop-items > li {
+  padding: 20px;
+  list-style-type: none;
+}
+
+.drop-items > li:hover {
+  background-color: blue;
+}
+
+/* I was stuck on this one for nearly 3 hours and resorted to working it out step by step with the solution
